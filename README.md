@@ -1,4 +1,4 @@
-Banking Insights & Reporting System
+**Banking Insights & Reporting System**
 
 A simple banking dashboard that displays customer details, account balance summary, transactions, and loan reports using clean visual charts.
 This project is made using Python + Streamlit (or Power BI / Tableau) and focuses only on data visualization, not machine learning.
