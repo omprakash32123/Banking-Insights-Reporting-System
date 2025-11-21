@@ -28,7 +28,7 @@ The dashboard helps in understanding customer behaviour, balance patterns, and t
 
 | File Name                           | Description                                      |
 | ----------------------------------- | ------------------------------------------------ |
-| `banking_dataset_unclean.xlsx`      | Raw dataset containing uncleaned banking records |
+| `uncleaned_banking_data.csv`      | Raw dataset containing uncleaned banking records |
 | `banking_dataset_clean.xlsx`        | Cleaned and organised dataset for dashboard      |
 | Dashboard file (`.pbix`)            | Power BI / Excel dashboard showing insights      |
 | README.md                           | Documentation of the entire project              |
@@ -119,12 +119,19 @@ The dashboard includes:
 
 ## **📚 Future Enhancements**
 
-* Real-time transaction tracking
-* SMS alerts for high-value transactions
-* Dashboard automation
-* Fraud detection module (advanced)
+*Real-time transaction monitoring.
+
+*High-value transaction alerts inside dashboard.
+
+*Monthly/Yearly transaction trend forecasting.
+
+*Customer transaction behaviour analysis.
+ 
+*Segmentation of transactions.
+
+*Channel performance insights.
 
 ## **👤 Author**
 
-**OMPRAKASH V**
-**Software Developer** 
+3 **OMPRAKASH V**
+# **Software Engineer** & **Data Analyist** 
