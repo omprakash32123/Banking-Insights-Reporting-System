@@ -30,7 +30,7 @@ The dashboard helps in understanding customer behaviour, balance patterns, and t
 | ----------------------------------- | ------------------------------------------------ |
 | `banking_dataset_unclean.xlsx`      | Raw dataset containing uncleaned banking records |
 | `banking_dataset_clean.xlsx`        | Cleaned and organised dataset for dashboard      |
-| Dashboard file (`.pbix` or `.xlsx`) | Power BI / Excel dashboard showing insights      |
+| Dashboard file (`.pbix`)            | Power BI / Excel dashboard showing insights      |
 | README.md                           | Documentation of the entire project              |
 
 ---
@@ -72,17 +72,17 @@ Both datasets include the following fields:
 
 ✔ Negative balances fixed
 
-### ✔ Missing balances filled
+✔ Missing balances filled
 
-### ✔ Transaction Type formatted
+✔ Transaction Type formatted
 
-### ✔ Wrong or blank transaction channels cleaned
+✔ Wrong or blank transaction channels cleaned
 
-### ✔ Duplicate rows removed
+✔ Duplicate rows removed
 
-### ✔ Transaction amount corrected (negative → zero)
+✔ Transaction amount corrected (negative → zero)
 
-### ✔ Date formats fixed
+✔ Date formats fixed
 
 ## **📈 Dashboard Features**
 
@@ -127,5 +127,4 @@ The dashboard includes:
 ## **👤 Author**
 
 **OMPRAKASH V**
-Final Year — B.Tech Information Technology
-Project: Banking Reporting & Insights Dashboard
+**Software Developer** 
