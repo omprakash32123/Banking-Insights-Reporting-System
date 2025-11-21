@@ -14,3 +14,118 @@
 •	To design a simple and professional dashboard that is easy to understand.
 
 •	To help banking staff take decisions using visual insights.
+
+*This project contains **two datasets**:
+
+1. **Uncleaned Dataset** – raw data with missing values, wrong formats, duplicates, spelling errors, and out-of-range values.
+2. **Cleaned Dataset** – fully processed and ready for dashboard creation.
+
+The dashboard helps in understanding customer behaviour, balance patterns, and transaction activities.
+
+---
+
+## **📂 Included Files**
+
+| File Name                           | Description                                      |
+| ----------------------------------- | ------------------------------------------------ |
+| `banking_dataset_unclean.xlsx`      | Raw dataset containing uncleaned banking records |
+| `banking_dataset_clean.xlsx`        | Cleaned and organised dataset for dashboard      |
+| Dashboard file (`.pbix` or `.xlsx`) | Power BI / Excel dashboard showing insights      |
+| README.md                           | Documentation of the entire project              |
+
+---
+
+## **📑 Dataset Description**
+
+Both datasets include the following fields:
+
+### **Customer Details**
+
+* UserID
+* Name
+* Gender
+* Age (25–45 in cleaned dataset)
+* Region (Indian cities)
+
+### **Account Details**
+
+* Bank Account Number (10 digits)
+* Account Type (Savings / Current)
+* Account Balance
+* Account Opening Date
+
+### **Transaction Details**
+
+* Transaction ID
+* Transaction Date
+* Transaction Type (Deposit / Withdrawal / Transfer / Online Payment)
+* Transaction Amount
+* Transaction Channel (ATM / Online / Branch)
+
+## **Data Cleaning Performed (for Cleaned Dataset)**
+
+✔ Age corrected to 25–45
+
+✔ Region missing values replaced with “Unknown”
+
+✔ Account Type standardised
+
+✔ Negative balances fixed
+
+### ✔ Missing balances filled
+
+### ✔ Transaction Type formatted
+
+### ✔ Wrong or blank transaction channels cleaned
+
+### ✔ Duplicate rows removed
+
+### ✔ Transaction amount corrected (negative → zero)
+
+### ✔ Date formats fixed
+
+## **📈 Dashboard Features**
+
+The dashboard includes:
+
+### **Key Performance Indicators (KPIs)**
+
+* Total Customers
+* Total Balance
+* Average Balance
+* Total Transactions
+* Deposit vs Withdrawal summary
+
+### **Visual Charts**
+
+* **Pie Chart** – Account Type Distribution
+* **Bar Chart** – Transaction Type Count
+* **Line Chart** – Monthly Transaction Trends
+* **Table View** – Top 10 customers by balance
+* **Region Map (optional)** – Users by region
+
+### **Filters**
+
+* Account Type
+* Region
+* Transaction Type
+* Date
+
+## **🛠 Tools Used**
+
+* **Microsoft Excel** – Data cleaning
+* **Power BI** – Dashboard creation (or Excel dashboard)
+* **Python (optional)** – For generating the dataset
+
+## **📚 Future Enhancements**
+
+* Real-time transaction tracking
+* SMS alerts for high-value transactions
+* Dashboard automation
+* Fraud detection module (advanced)
+
+## **👤 Author**
+
+**OMPRAKASH V**
+Final Year — B.Tech Information Technology
+Project: Banking Reporting & Insights Dashboard
